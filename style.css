@@ -7,6 +7,11 @@
  Jedeme retro cernobile, dnes barvy nepotrebujeme.
 */
 
+html, body, figure {
+    margin: 0;
+    padding: 0;
+
+}
 
 body {
     margin: 0;
@@ -15,8 +20,41 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
+.ramec-obal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 40px;
+  }
+
+ .ramec {
+     width: 450px;
+     background-color: white;
+ } 
+
+ .foto {
+     width: 100%;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ .uvodni-foto {
+     text-align: center;
+     font-size: 14px;
+     padding: 30px;
+     color: whitesmoke;
+     background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/island-hlavicka.jpg");;
+     background-size: cover;
+     height: 350px;
+     
+ }
 
 /* HLAVICKA */
 
