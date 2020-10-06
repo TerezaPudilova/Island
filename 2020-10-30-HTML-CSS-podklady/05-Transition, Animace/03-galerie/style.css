@@ -1,0 +1,53 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, :after, :before { box-sizing: border-box; }
+
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* ---------------- */
+
+
+.popisek {
+    position:absolute;
+    border: 1px dashed red;
+    bottom: 0;
+    left: 0;
+    width:100%;
+
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    transform: translateY(100%); /*prvek mi zajíždí a vyjíždí*/
+    transition: transform .4s;
+}
+
+.foto:hover .popisek {
+    transform: translateY(0);
+}
+.nazev {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copyright a {
+    color: white;
+}
+
+.foto {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%; /**/
+    display: block;
+    transition: transform .4s;
+}
+
+.foto:hover img {
+    transform: scale(1.2);
+}

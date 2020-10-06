@@ -1,0 +1,31 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+.box {
+	width: 500px;
+	height: 500px;
+	margin: 100px auto;
+	border: 1px dashed grey;
+}
+
+/* ------------------------------------ */
+
+.box {
+	/* background-image: url("images/siroke.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; */
+	background-image: url("images/vysoke.jpg");
+	background-size: cover;
+	background-position: center, center;
+	background-attachment: fixed; /*obrázek při skorovolání zůstává na místě - na pozadí*/
+
+}
+
+body {
+	
+	color: white;
+	background-color: grey;
+}
