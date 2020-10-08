@@ -33,7 +33,7 @@ body {
   }
 
  .ramec {
-     width: 450px;
+     width: 600px;
      background-color: white;
  } 
 
@@ -45,37 +45,100 @@ body {
      width: 100%;
  }
 
- .uvodni-foto {
-     text-align: center;
-     font-size: 14px;
-     padding: 30px;
-     color: whitesmoke;
-     background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/island-hlavicka.jpg");;
-     background-size: cover;
-     height: 350px;
-     
- }
+
 
 /* HLAVICKA */
+
+.uvodni-foto {
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/island-hlavicka.jpg");;
+    background-size: cover;
+    height: 450px;
+}
+
+.new2 {
+    width: 15%;
+    border: 1px solid white;
+}
+
+.autor {
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .titulek {
     font-family: 'Raleway', serif;
 }
 
+ .perex {
+    font-weight: 1000;
+}
 
 /* MENU */
 
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+}
 
+ul a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(183, 183, 183);
+    
+    text-transform: uppercase;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+    border-bottom:  rgb(241, 240, 240) solid;
+    border-width: 1px;
+}
 
 
 /* OBSAH */
 
+hr.new {
+    border: 2px solid rgb(95, 154, 236);
+    width: 15%;
+    text-align: left;
+    margin-left: 0;
+}
 
+p, h2 {
+    margin: 25px;
+}
+
+p {
+font-size: 18px;
+}
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.popisek a {
+    color: grey;
+}
 
 
 /* FOTOGALERIE */
 
-
+.foto {
+    padding-top: 20px;
+}
 
 
 /* PATICKA */
